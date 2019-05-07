@@ -23,3 +23,7 @@
 <br>
 
 <%= link_to 'New Book', new_book_path %>
+
+<% if session[:current_user] %>
+  <li><%= link_to 'Log OUT', session_path('logout'), method: :delete %></li>
+<% end %>
