@@ -8,9 +8,7 @@
 данные (логин пароль) из переменных окружения.
 
 #### Deploy on heroku ####
-
 <https://simpleautheticate.herokuapp.com/>
 
 ``` login: foo ```
-
 ``` password: bar ```
