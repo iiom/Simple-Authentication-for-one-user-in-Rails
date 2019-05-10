@@ -1,24 +1,15 @@
-# README
+## Простая аутентификация для одного пользователя
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+>Задача разграничить доступ для всех (им только просмотр 
+страниц index обоих моделей и просмотр show), а для 
+администратора все остальные рессурсы(созданние удаление 
+редактирование).
+Пользователя как такового нет, приложение подтягивает его 
+данные (логин пароль) из переменных окружения.
 
-Things you may want to cover:
+#####Deploy on heroku
+<https://simpleautheticate.herokuapp.com/>
 
-* Ruby version
+``` login: foo ```
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+``` password: bar ```
